@@ -1,8 +1,10 @@
-numpy
-pandas
-scikit-learn
+numpy>=1.24
+pandas>=2.0
+scikit-learn>=1.3
 scipy
 joblib
 tqdm
-xgboost
-lightgbm
+# Optional boosted-tree backends. If installed, the script uses them before
+# falling back to scikit-learn or the built-in NumPy online ridge model.
+# lightgbm>=4.0
+# xgboost>=2.0
