@@ -96,16 +96,6 @@ def parse_args() -> argparse.Namespace:
         help="Selected model configuration JSON.",
     )
     parser.add_argument(
-        "--leaderboard-output",
-        default="validation_leaderboard.csv",
-        help="Validation leaderboard CSV.",
-    )
-    parser.add_argument(
-        "--config-output",
-        default="best_model_config.json",
-        help="Selected model configuration JSON.",
-    )
-    parser.add_argument(
         "--mask-fraction",
         type=float,
         default=0.15,
