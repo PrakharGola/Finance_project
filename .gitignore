@@ -1,0 +1,29 @@
+# Python cache
+
+**pycache**/
+*.pyc
+
+# Jupyter
+
+.ipynb_checkpoints/
+
+# Outputs
+
+outputs/
+submission.csv
+filled_dataset.csv
+validation_leaderboard.csv
+best_model_config.json
+
+# Data
+
+data/*.csv
+
+# Environment
+
+.env
+
+# OS files
+
+.DS_Store
+Thumbs.db
